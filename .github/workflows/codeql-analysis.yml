@@ -9,7 +9,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: [self-hosted, extra]
+    runs-on: [self-hosted]
 
     strategy:
       fail-fast: false
