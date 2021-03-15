@@ -10,7 +10,7 @@ jobs:
   analyze:
     name: Analyze
     runs-on: [self-hosted, extra]
-    
+
     strategy:
       fail-fast: false
       matrix:
